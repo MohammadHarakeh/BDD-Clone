@@ -89,9 +89,9 @@ section h2 {
 
 .cards {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
   margin-top: 20px;
 }
 
@@ -102,7 +102,7 @@ section h2 {
   border: 1px solid #ddd;
   border-radius: 10px;
   text-align: center;
-  margin: 10px;
+  margin: 1%;
 }
 
 .blue:hover {
@@ -126,7 +126,11 @@ section h2 {
 }
 
 .section-two-card img {
+  width: 70%;
   height: 14vh;
+}
+.section-two-card h4 {
+  width: 100%;
 }
 
 .section-two-card p {
@@ -162,26 +166,105 @@ section h2 {
 }
 
 .section-three-wrapper {
+  display: flex;
+  position: relative;
   width: 100%;
   height: 100vh;
+  margin-bottom: ;
   background-color: white;
 }
 
-.section-three-image img {
-  padding-top: 5%;
-  width: 35%;
+.section-three-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.section-three-title {
+  background-color: white;
+  padding-top: 2%;
+  text-align: center;
 }
 
 .section-three-card {
-  display: flex;
+  position: relative;
+  width: 23%;
+  height: 65vh;
+  padding: 3% 5%;
+  line-height: 25px;
+  text-align: center;
+  margin: 1%;
 }
 
+.section-three-card:hover {
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
+
+.section-three-card a {
+  position: absolute;
+  cursor: pointer;
+  bottom: 20px;
+  width: 60%;
+  display: block;
+  padding: 10px 10px;
+  background-color: #0078be;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.section-three-card li {
+  margin-bottom: 10%;
+}
+
+.section-three-image {
+  width: 25%;
+  margin-right: 10%;
+}
+
+.section-three-image img {
+  padding-top: 25%;
+  width: 120%;
+}
+
+.store-download {
+  position: absolute;
+  bottom: 0%;
+  left: 35%;
+}
+
+.store-download img {
+  margin: 2%;
+  margin-left: 4%;
+  width: 20%;
+}
+
+.section-four {
+  background-image: url(/Images/image3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+/* color: #21212100;
+font-family: "TheMixBlack-Caps", Sans-serif;
+font-size: 35.1px;
+font-weight: 400;
+-webkit-text-stroke-width: 2px;
+stroke-width: 2px;
+-webkit-text-stroke-color: #e13870;
+stroke: #e13870; */
+
 footer {
-  background-color: rgba(51, 51, 51, 0.7);
+  background-color: #212121;
   color: #fff;
   text-align: center;
   padding: 10px;
-  position: fixed;
   bottom: 0;
+  height: 25vh;
   width: 100%;
 }
