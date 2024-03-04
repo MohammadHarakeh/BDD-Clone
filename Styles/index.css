@@ -442,6 +442,7 @@ footer {
   color: #fff;
   padding-left: 10%;
   padding-right: 10%;
+  padding-top: 1%;
   line-height: 30px;
 }
 
@@ -452,10 +453,75 @@ footer {
   text-align: center;
   margin-bottom: 20px;
 }
+
+.footer-one h3 {
+  color: #b6b6b6;
+  font-family: "TheMixBlack-Caps", Sans-serif;
+}
+
 .footer-two {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 20px;
+}
+
+.footer-two {
+  list-style: none;
+}
+
+.footer-two h4 {
+  color: #64635d;
+}
+
+.footer-two li {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.footer-two li:hover {
+  border-bottom: 2px solid rgb(0, 153, 255);
+}
+
+.email i {
+  padding-right: 20px;
+}
+
+.email img {
+  cursor: pointer;
+  width: 150px;
+  padding-right: 15px;
+}
+
+.terms {
+  font-size: 70%;
+}
+
+.footer-three {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 2%;
+}
+
+.footer-three i {
+  padding-right: 5px;
+}
+
+.footer-three p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer-three a {
+  color: rgb(0, 153, 255);
+  text-decoration: none;
+}
+
+.footer-three a:hover {
+  border-bottom: 2px solid rgb(0, 153, 255);
+}
+
+.footer-icons i {
+  padding-right: 25px;
 }
